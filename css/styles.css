@@ -119,6 +119,7 @@ width: 1128px;
 font-family: var(--font-family);
 font-weight: 500;
     font-size: 20px;
+    color: #2e2f42;
 
     /* line-height: 24px; */
     line-height: 1.2;
@@ -138,6 +139,7 @@ font-weight: 400;
 /* Our Team */
 .team-section {
 background-color: #f4f4fd;
+line-height: 1.11
 }
 .team-title-middle {
     font-family: var(--font-family);
@@ -168,6 +170,7 @@ font-weight: 500;
     color: var(--navy-blue);
 }
 .team-text {
+    color: #434455;
 font-weight: 400;
     font-size: 16px;
 
@@ -180,34 +183,35 @@ font-weight: 400;
 
 /*Our Portfolio*/
 .portfolio-section {
-
+    color: #2e2f42;
+    text-transform: capitalize;
+line-height: 1.11
 }
 .portfolio-title-middle {
+    color: #2e2f42;
 font-family: var(--font-family);
 font-weight: 700;
     font-size: 36px;
-    line-height: 1.11
-    text-transform: capitalize
+    line-height: 1.11;
+    text-transform: capitalize;
 
     /* line-height: 40px; */
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: var(--navy-blue);
 }
 .portfolio-list {
-background-color: #FFFFFF
 }
 .portfolio-item {
-
+background-color: #FFFFFF;
 }
 .portfolio-title {
+    text-transform: capitalize;
     font-family: var(--font-family);
 font-weight: 500;
     font-size: 20px;
-    color: #434455;
     line-height: 1.11
-    text-transform: capitalize
 
     /* line-height: 24px; */
     line-height: 1.2;
@@ -227,8 +231,12 @@ font-weight: 400;
 }
 /*Footer*/
 .footer {
+    color: #4d5ae5;
 width: 1440px;
     height: 312px;
+    background-color: #2e2f42;
+    font-family: "Raleway", sans-serif
+    line-height: 1.17
 }
 .logo {
     font-family: var(--second-family);
