@@ -1,7 +1,9 @@
   body {
-      font-family: "Roboto", sans-serif;
-      color: #2E2F42;
-    background: var(--white);
+    font-family: "Roboto", sans-serif;
+    second-family: "Raleway", sans-serif;
+        }
+      color: #434455;
+    background-color: #FFFFFF;
       font-weight: 400;
       font-style: normal;
   }
@@ -103,6 +105,7 @@ display: flex;
 
 /* Our Advantages */ 
 .advantages-section {
+    color: #434455;
 width: 1128px;
     height: 104px;
 }
@@ -183,6 +186,8 @@ font-weight: 400;
 font-family: var(--font-family);
 font-weight: 700;
     font-size: 36px;
+    line-height: 1.11
+    text-transform: capitalize
 
     /* line-height: 40px; */
     line-height: 1.11111;
@@ -191,7 +196,7 @@ font-weight: 700;
     color: var(--navy-blue);
 }
 .portfolio-list {
-
+background-color: #FFFFFF
 }
 .portfolio-item {
 
@@ -200,6 +205,9 @@ font-weight: 700;
     font-family: var(--font-family);
 font-weight: 500;
     font-size: 20px;
+    color: #434455;
+    line-height: 1.11
+    text-transform: capitalize
 
     /* line-height: 24px; */
     line-height: 1.2;
@@ -207,6 +215,7 @@ font-weight: 500;
     color: var(--navy-blue);
 }
 .portfolio-text {
+    color: #434455;
     font-family: var(--font-family);
 font-weight: 400;
     font-size: 16px;
@@ -233,6 +242,7 @@ width: 1440px;
         color: var(--iris);
 }
 .footer-logo {
+    color: #f4f4fd;
     background: var(--navy-blue);
 font-weight: 700;
     font-size: 18px;
