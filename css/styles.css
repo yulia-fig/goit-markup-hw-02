@@ -23,23 +23,27 @@ list-style: non;
 
 }
 .logo {
+    font-family: "Raleway", sans-serif;
 font-family: var(--second-family);
 font-weight: 700;
     font-size: 18px;
+    color: #4d5ae5;
 
     /* line-height: 21px; */
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--iris);
 }
 .header-logo {
+    font-family: "Raleway", sans-serif;
 font-family: var(--second-family);
 font-weight: 700;
     font-size: 18px;
+    color: #2e2f42;
 
     /* line-height: 21px; */
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--navy-blue);
@@ -57,21 +61,23 @@ width: 261px;
 
 }
 .contacts {
-
+font-style: normal;
 }
 .contacts-list {
-
-}
-.contacts-item-hover {
+color: #2e2f42;
 font-family: var(--font-family);
-font-weight: 400;
+    font-weight: 400;
     font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.02em;
 
     /* line-height: 24px; */
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--slate);
-}
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--slate);
+    }
+.contacts-item-hover {
+    color: #434455;
 
 .main-section {
 background: var(--navy-blue);
@@ -211,7 +217,7 @@ background-color: #FFFFFF;
     font-family: var(--font-family);
 font-weight: 500;
     font-size: 20px;
-    line-height: 1.11
+    line-height: 1.2;
 
     /* line-height: 24px; */
     line-height: 1.2;
@@ -231,14 +237,14 @@ font-weight: 400;
 }
 /*Footer*/
 .footer {
-    color: #4d5ae5;
 width: 1440px;
     height: 312px;
     background-color: #2e2f42;
-    font-family: "Raleway", sans-serif
+    font-family: "Raleway", sans-serif;
     line-height: 1.17
 }
 .logo {
+    color: #4d5ae5;
     font-family: var(--second-family);
     font-weight: 700;
         font-size: 18px;
@@ -250,6 +256,7 @@ width: 1440px;
         color: var(--iris);
 }
 .footer-logo {
+    font-family: "Raleway", sans-serif;
     color: #f4f4fd;
     background: var(--navy-blue);
 font-weight: 700;
@@ -262,6 +269,7 @@ font-weight: 700;
     color: var(--cloud);
 }
 .footer-text {
+    color: #F4F4FD;
 font-weight: 400;
     font-size: 16px;
 
