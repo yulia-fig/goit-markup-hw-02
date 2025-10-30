@@ -1,6 +1,5 @@
   body {
     font-family: "Roboto", sans-serif;
-    font-family: "Raleway", sans-serif;
     color: #434455;
     background-color: #FFFFFF;
     font-weight: 400;
@@ -8,15 +7,28 @@
     }
   ul a {
     color: #2E2F42;
-l   list-style: none;
+    list-style: none;
   }
   /*Header*/
 .header {
     background: var(--white);
+    font-weight: 700;
+        font-size: 18px;
+        color: #4d5ae5;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
 }
 .header-nav {
     color: #2e2f42;
+    a[href="./index.html"] {
+  color: #4d5ae5;         /* колір тексту */
+  text-decoration: none;
 }
+a[href="./index.html"] {
+    color: #4d5ae5;
+    /* колір тексту */
+    text-decoration: none;}
 .header-link:hover {
     font-weight: 500;
     font-size: 16px;
@@ -29,8 +41,6 @@ l   list-style: none;
     font-weight: 700;
     font-size: 18px;
     color: #4d5ae5;
-
-    /* line-height: 21px; */
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
@@ -40,15 +50,11 @@ l   list-style: none;
     font-weight: 700;
     font-size: 18px;
     color: #2e2f42;
-
-    /* line-height: 21px; */
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 .header-list {
-    width: 261px;
-    height: 24px;
-    justify-content: flex-start;
+
 }
 .header-item {
 
@@ -72,11 +78,11 @@ l   list-style: none;
     color: #434455;
 
 .main-section {
-    width: 1440px;
-    height: 600px;
+
+}
+    
 .advantages-title-middle {
     
-}
 }
 .main-title {
     font-weight: 700;
@@ -85,12 +91,9 @@ l   list-style: none;
     text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
-
-    /* line-height: 60px; */
     line-height: 1.07143;
     letter-spacing: 0.02em;
     text-align: center;
-    color: var(--white);
 }
 .main-button {
     background: #2e2f42;
@@ -109,8 +112,6 @@ background-color: #404BBF;
 /* Our Advantages */ 
 .advantages-section {
     color: #434455;
-    width: 1128px;
-    height: 104px;
 }
 .advantages-list {
 font-weight: 500;
@@ -127,11 +128,8 @@ color: #2e2f42;
     font-weight: 500;
     font-size: 20px;
     color: #2e2f42;
-
-    /* line-height: 24px; */
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: var(--navy-blue);
 }
 .advantages-text {
     font-family: var(--font-family);
@@ -230,15 +228,13 @@ color: #2e2f42;
 }
 /*Footer*/
 .footer {
-    width: 1440px;
-    height: 312px;
     background-color: #2e2f42;
     font-family: "Raleway", sans-serif;
     line-height: 1.17;
 }
 .logo {
+    font-family: "Raleway", sans-serif;
     color: #4d5ae5;
-    font-family: var(--second-family);
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
@@ -248,15 +244,11 @@ color: #2e2f42;
 .footer-logo {
     font-family: "Raleway", sans-serif;
     color: #f4f4fd;
-    background: var(--navy-blue);
     font-weight: 700;
     font-size: 18px;
-
-    /* line-height: 21px; */
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--cloud);
 }
 .footer-text {
     color: #F4F4FD;
