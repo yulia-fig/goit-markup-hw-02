@@ -21,29 +21,23 @@
 }
 .header-nav {
     color: #2e2f42;
-    a[href="./index.html"] {
-  color: #4d5ae5;         /* колір тексту */
-  text-decoration: none;
 }
-a[href="./index.html"] {
+
+.header-nav a[href="./index.html"] {
     color: #4d5ae5;
-    /* колір тексту */
-    text-decoration: none;}
-.header-link:hover {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #404bbf;
+    text-decoration: none;
 }
-.logo {
+.header-link-logo {
     font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    color: #4d5ae5;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
+        font-weight: 700;
+        font-size: 18px;
+        color: #4d5ae5;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+}
+.header-link-logo:hover {
+    color: #404bbf
 }
 .header-logo {
     font-family: "Raleway", sans-serif;
@@ -53,6 +47,7 @@ a[href="./index.html"] {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+}
 .header-list {
 
 }
@@ -61,24 +56,26 @@ a[href="./index.html"] {
 }
 .contacts {
     font-style: normal;
+    background-color: #2e2f42;
 }
 .contacts-list {
     color: #2e2f42;
-    font-family: var(--font-family);
-    font-weight: 400;
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 500;
     letter-spacing: 0.02em;
-
-    /* line-height: 24px; */
     line-height: 1.5;
-    letter-spacing: 0.02em;
     }
 .contacts-item-hover {
     color: #434455;
-
+}
 .main-section {
-
+font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
 }
     
 .advantages-title-middle {
@@ -91,7 +88,6 @@ a[href="./index.html"] {
     text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
-    line-height: 1.07143;
     letter-spacing: 0.02em;
     text-align: center;
 }
@@ -105,9 +101,10 @@ a[href="./index.html"] {
     color: #ffffff;
     cursor: pointer;
 }
-.main-button:hover :focus {
-background-color: #404BBF;
-}    
+.main-button:hover,
+.main-button:focus {
+    background-color: #404BBF;
+}
 
 /* Our Advantages */ 
 .advantages-section {
@@ -124,7 +121,7 @@ color: #2e2f42;
 
 }
 .advantages-title {
-    font-family: var(--font-family);
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 20px;
     color: #2e2f42;
@@ -132,7 +129,7 @@ color: #2e2f42;
     letter-spacing: 0.02em;
 }
 .advantages-text {
-    font-family: var(--font-family);
+    font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -142,11 +139,11 @@ color: #2e2f42;
 /* Our Team */
 .team-section {
     background-color: #f4f4fd;
-    line-height: 1.11
+    line-height: 1.11;
     font-size: 36px;
 }
 .team-title-middle {
-    font-family: var(--font-family);
+    font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 36px;
     text-align: center;
@@ -166,7 +163,7 @@ color: #2e2f42;
 
 }
 .team-title {
-    font-family: var(--font-family);
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 20px;
 
@@ -190,7 +187,7 @@ color: #2e2f42;
 .portfolio-section {
     color: #2e2f42;
     text-transform: capitalize;
-    line-height: 1.11
+    line-height: 1.11;
 }
 .portfolio-title-middle {
     color: #2e2f42;
@@ -211,7 +208,7 @@ color: #2e2f42;
 }
 .portfolio-title {
     text-transform: capitalize;
-    font-family: var(--font-family);
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -220,7 +217,7 @@ color: #2e2f42;
 }
 .portfolio-text {
     color: #434455;
-    font-family: var(--font-family);
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -232,7 +229,7 @@ color: #2e2f42;
     font-family: "Raleway", sans-serif;
     line-height: 1.17;
 }
-.logo {
+.footer-link-logo {
     font-family: "Raleway", sans-serif;
     color: #4d5ae5;
     font-weight: 700;
