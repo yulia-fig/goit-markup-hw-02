@@ -47,6 +47,9 @@
     letter-spacing: 0.02em;
     text-decoration: none;
 }
+.header-link-first {
+    color: #2e2f42;
+}
 .header-link-first:hover,
 .header-link:focus {
     color: #404bbf;
