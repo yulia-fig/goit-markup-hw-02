@@ -36,9 +36,8 @@
     color: #2e2f42;
 }
 .header-list {
+    color: #2e2f42;
     list-style: none;
-    display: flex;
-    gap: 40px;
 }
 .header-link {
     font-weight: 500;
@@ -156,7 +155,7 @@ color: #2e2f42;
     color: #2e2f42;
 }
 .team-list {
-    background-color: #F4F4FD;
+    background-color: #FFFFFF;
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
