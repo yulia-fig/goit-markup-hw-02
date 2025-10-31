@@ -56,7 +56,7 @@
     text-decoration: none;
 }
 .header-link-first:hover,
-.header-link:focus {
+.header-link-first:focus {
     color: #404bbf;
 }
 .header-item {
