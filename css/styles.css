@@ -45,12 +45,17 @@
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: #2e2f42;
+    /* <-- звичайний стан */
     text-decoration: none;
 }
+
 .header-link:hover,
 .header-link:focus {
     color: #404bbf;
+}
+.header-item {
+    background-color: #FFFFFF;
 }
 .contacts {
     font-style: normal;
@@ -64,11 +69,15 @@
     letter-spacing: 0.02em;
     line-height: 1.5;
     }
-    .header-item {
-    background-color: #FFFFFF;
-}
 .contacts-item {
     color: #434455;
+}
+.contacts-link {
+    color: #434455;
+}
+.contacts-link:hover,
+.contacts-link:focus {
+    color: #404bbf;
 }
 .main-section {
     background-color: #2e2f42;
