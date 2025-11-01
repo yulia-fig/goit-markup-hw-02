@@ -7,7 +7,6 @@
     }
   /*Header*/
 .header {
-    background: #2e2f42;
     font-weight: 700;
     font-size: 18px;
     color: #4d5ae5;
@@ -51,7 +50,6 @@
 }
 .contacts {
     font-style: normal;
-    background-color: #2e2f42;
 }
 .contacts-list {
     color: #2e2f42;
