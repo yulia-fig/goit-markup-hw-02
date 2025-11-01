@@ -47,10 +47,12 @@
     letter-spacing: 0.02em;
     text-decoration: none;
 }
-.header-link:hover,
-.header-link:focus {
+.header-link:hover {
     color: #404bbf;
 }    
+.header-link:focus {
+    color: #404bbf;
+}
 .header-item {
     background-color: #FFFFFF;
 }
